@@ -1,24 +1,4 @@
-import hero from "/assets/images/hero.jpeg";
-
-export const heroImg = hero;
-
-import apple from "/assets/images/apple.svg";
-import bag from "/assets/images/bag.svg";
-import pause from "/assets/images/pause.svg";
-import play from "/assets/images/play.svg";
-import replay from "/assets/images/replay.svg";
-import right from "/assets/images/right.svg";
-import search from "/assets/images/search.svg";
-import watch from "/assets/images/watch.svg";
-
-import black from "/assets/images/black.jpg";
-import blue from "/assets/images/blue.jpg";
-import chip from "/assets/images/chip.jpeg";
-import explore1 from "/assets/images/explore1.jpg";
-import explore2 from "/assets/images/explore2.jpg";
-import frame from "/assets/images/frame.png";
-import white from "/assets/images/white.jpg";
-import yellow from "/assets/images/yellow.jpg";
+export const heroImg = "/assets/images/hero.jpeg";
 
 export const heroVideo = "/assets/videos/hero.mp4";
 export const smallHeroVideo = "/assets/videos/smallHero.mp4";
@@ -29,20 +9,20 @@ export const highlightFourthVideo = "/assets/videos/hightlight-fourth.mp4";
 export const exploreVideo = "/assets/videos/explore.mp4";
 export const frameVideo = "/assets/videos/frame.mp4";
 
-export const appleImg = apple;
-export const searchImg = search;
-export const bagImg = bag;
-export const watchImg = watch;
-export const rightImg = right;
-export const replayImg = replay;
-export const playImg = play;
-export const pauseImg = pause;
+export const appleImg = "/assets/images/apple.svg";
+export const searchImg = "/assets/images/search.svg";
+export const bagImg = "/assets/images/bag.svg";
+export const watchImg = "/assets/images/watch.svg";
+export const rightImg = "/assets/images/right.svg";
+export const replayImg = "/assets/images/replay.svg";
+export const playImg = "/assets/images/play.svg";
+export const pauseImg = "/assets/images/pause.svg";
 
-export const yellowImg = yellow;
-export const blueImg = blue;
-export const whiteImg = white;
-export const blackImg = black;
-export const explore1Img = explore1;
-export const explore2Img = explore2;
-export const chipImg = chip;
-export const frameImg = frame;
+export const yellowImg = "/assets/images/yellow.jpg";
+export const blueImg = "/assets/images/blue.jpg";
+export const whiteImg = "/assets/images/white.jpg";
+export const blackImg = "/assets/images/black.jpg";
+export const explore1Img = "/assets/images/explore1.jpg";
+export const explore2Img = "/assets/images/explore2.jpg";
+export const chipImg = "/assets/images/chip.jpeg";
+export const frameImg = "/assets/images/frame.png";
