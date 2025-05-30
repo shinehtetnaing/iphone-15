@@ -94,7 +94,6 @@
     @apply ml-4 p-4 rounded-full bg-gray-300 backdrop-blur flex items-center justify-center
   }
 
-  /*
   .color-container {
     @apply flex items-center justify-center px-4 py-4 rounded-full bg-gray-300 backdrop-blur
   }
@@ -107,6 +106,7 @@
     @apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all
   }
 
+  /*
   .feature-text {
     @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px]
   }
