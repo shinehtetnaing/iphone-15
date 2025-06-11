@@ -5,17 +5,21 @@ import { RefObject } from "react";
 import * as THREE from "three";
 gsap.registerPlugin(ScrollTrigger);
 
-// export const animateWithGsap = (target, animationProps, scrollProps) => {
-//   gsap.to(target, {
-//     ...animationProps,
-//     scrollTrigger: {
-//       trigger: target,
-//       toggleActions: 'restart reverse restart reverse',
-//       start: 'top 85%',
-//       ...scrollProps,
-//     }
-//   })
-// }
+export const animateWithGsap = (
+  target: string,
+  animationProps: object,
+  scrollProps?: object
+) => {
+  gsap.to(target, {
+    ...animationProps,
+    scrollTrigger: {
+      trigger: target,
+      toggleActions: "restart reverse restart reverse",
+      start: "top 85%",
+      ...scrollProps,
+    },
+  });
+};
 
 export const animateWithGsapTimeline = (
   timeline: gsap.core.Timeline,

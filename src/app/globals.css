@@ -106,15 +106,6 @@
     @apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all
   }
 
-  /*
-  .feature-text {
-    @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px]
-  }
-
-  .feature-text-container {
-    @apply w-full flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5
-  }
-
   .feature-video {
     @apply w-full h-full object-cover object-center scale-150 opacity-0
   }
@@ -123,6 +114,15 @@
     @apply w-full flex flex-col md:flex-row gap-5 items-center
   }
 
+  .feature-text {
+    @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px]
+  }
+
+  .feature-text-container {
+    @apply w-full flex items-center justify-center flex-col md:flex-row mt-10 md:mt-16 gap-5
+  }
+
+  /*
   .hiw-title {
     @apply text-4xl md:text-7xl font-semibold text-center
   }
